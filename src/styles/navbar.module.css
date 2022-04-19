@@ -1,5 +1,5 @@
 .container{
-    margin: auto;
+    margin: 0px;
     height: 100px;
     background-color: #d1411e;
     display: flex;
@@ -8,7 +8,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 10px;
+    z-index: 10;
    
 }
 .item{
@@ -55,8 +55,8 @@
     color:white;
 }
 .listItem{
-    margin: 45px;
-    font-weight: 500;
+    margin: 70px;
+    font-weight: bold;
     cursor: pointer;
 }
    
@@ -64,7 +64,7 @@
     background-color: white;
     padding: 10px;
     border-radius: 15%;
-    
+    cursor: pointer;
     position: relative;
 }
 .counter{
