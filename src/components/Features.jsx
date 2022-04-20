@@ -25,7 +25,7 @@ const Features = () => {
         style={{ left: 0 }}
         onClick={() => handleArrow("l")}
       >
-        <img src="/img/arrowl.png" layout="fill" alt="" objectFit="cover" />
+        <img src="/img/arrowl.png" layout="fill" alt="" />
       </div>
       <div
         className={styles.wrapper}
@@ -33,7 +33,7 @@ const Features = () => {
       >
         {images.map((img, index) => (
           <div className={styles.imgContainer} key={index}>
-            <img src={img} layout="fill" alt="" objectFit="cover" />
+            <img src={img} layout="fill" alt="" />
           </div>
         ))}
       </div>
@@ -42,7 +42,7 @@ const Features = () => {
         style={{ right: 0, display: "grid", justifyContent: "right" }}
         onClick={() => handleArrow("r")}
       >
-        <img src="/img/arrowr.png" layout="fill" alt="" objectFit="cover" />
+        <img src="/img/arrowr.png" layout="fill" alt="" />
       </div>
     </div>
   );
