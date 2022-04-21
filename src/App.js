@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PizzaList from "./components/PizzaList";
 import Order from "./pages/Orders";
+import Product from "./pages/Product";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Features />
       <PizzaList />
+      <Product />
       <Order />
       <Footer />
     </div>
